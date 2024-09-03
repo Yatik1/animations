@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'FounderGrostesk';
+    src: url('./fonts/FoundersGrotesk-Semibold.ttf') format('truetype');
+    
+  }
+
+  @font-face {
+    font-family: 'NeueMontreal';
+    src: url('./fonts/NeueMontreal-Regular.ttf') format('truetype');
+    
+  }
+  
+  
+  .FounderGrostesk {
+    font-family: 'FounderGrostesk', sans-serif;
+  }
+
+  .NeueMontreal{
+    font-family: 'NeueMontreal', sans-serif;
+  }
+
